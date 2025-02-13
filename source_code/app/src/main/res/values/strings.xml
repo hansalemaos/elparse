@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">elparse</string>
+    <string name="accessibility_service_label">elparse</string>
+    <string name="accessibility_service_description">elparse</string>
+</resources>

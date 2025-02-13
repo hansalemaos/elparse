@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/accessibility_service_label"
+    android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFeedbackType="feedbackAllMask"
+    android:accessibilityFlags="flagDefault"
+    android:notificationTimeout="100"
+    android:packageNames="@null"
+    android:canRequestFingerprintGestures="true"
+
+    android:canRequestTouchExplorationMode="true"
+    android:canRequestEnhancedWebAccessibility="true"
+    android:canRetrieveWindowContent="true"
+    android:canRequestFilterKeyEvents="true"
+    android:canControlMagnification="true"
+    android:canPerformGestures="true"
+    />
+
+<!--android:canTakeScreenshot="true"-->
